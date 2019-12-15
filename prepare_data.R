@@ -4,12 +4,15 @@ character_vars <- c("athlete.id",
                     "external_id", 
                     "map.id", 
                     "map.summary_polyline", 
-                    "upload_id_str")
+                    "upload_id_str",
+                    "upload_id",
+                    "name")
 
 numeric_vars <- c("average_cadence", 
                   "average_heartrate", 
                   "average_temp",
-                  "max_heartrate")
+                  "max_heartrate",
+                  "pr_count")
 
 df <- df %>%
   

@@ -89,7 +89,7 @@ get_activity <- function(id) {
     tidyr::unnest() %>%
     mutate(velocity_kph = 3.6 * velocity_smooth,
            climb = altitude - lag(altitude),
-           row_numer = row_number())
+           row_number = row_number())
   
   return(activity)
   
