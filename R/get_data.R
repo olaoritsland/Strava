@@ -10,7 +10,6 @@ library(patchwork)
 
 # Strava API
 client_id <- 41646
-secret <- "89660e7dad7709b984863bdd81f4d60580477006"
 app_name <- "WorkoutAnalytics"
 
 # Get token and get data (this part is commented out to save time, read in RDS instead)
